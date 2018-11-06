@@ -1,0 +1,40 @@
+{
+  "name": "klingon",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "lint": "vue-cli-service lint",
+    "build-dev": "vue-cli-service build --model development --modern",
+    "build-cs": "vue-cli-service build --model test --modern",
+    "build-prod": "vue-cli-service build --model production --modern",
+    "serve-dev": "vue-cli-service serve --mode development",
+    "serve-cs": "vue-cli-service serve --mode test",
+    "serve-prod": "vue-cli-service serve --mode production"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "element-ui": "^2.4.9",
+    "normalize.css": "^8.0.0",
+    "query-string": "^6.2.0",
+    "vant": "^1.3.4",
+    "vue": "^2.5.17",
+    "vue-router": "^3.0.1",
+    "vuex": "^3.0.1",
+    "weixin-js-sdk": "^1.4.0-test",
+    "whatwg-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^3.0.4",
+    "@vue/cli-plugin-eslint": "^3.0.4",
+    "@vue/cli-service": "^3.0.4",
+    "@vue/eslint-config-prettier": "^3.0.4",
+    "babel-plugin-component": "^1.1.1",
+    "babel-plugin-import": "^1.9.1",
+    "babel-preset-es2015": "^6.24.1",
+    "less": "^3.0.4",
+    "less-loader": "^4.1.0",
+    "postcss-pxtorem": "^4.0.1",
+    "qs": "^6.5.2",
+    "vue-template-compiler": "^2.5.17"
+  }
+}
